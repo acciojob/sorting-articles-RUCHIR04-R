@@ -1,26 +1,28 @@
-/*  your css code here. If applicable */
-/* Your CSS code here */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background-image: url('path-to-your-image.jpg'); /* replace with your background image */
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 20px auto;
-    width: 50%;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 li {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-li:last-child {
-    border-bottom: none;
+    border-bottom: 1px solid white;
 }
